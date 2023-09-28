@@ -5,7 +5,7 @@ Console.WriteLine("***** Fun with Data Readers *****\n");
 // Create and open a connection.
 using var connection = new SqlConnection();
 connection.ConnectionString =
-    @"Data Source=.,1433;User Id=sa;Password=Test1234;Initial Catalog=AutoLot;Encrypt=False;";
+    @"Data Source=homers-imac.chdulu.com,11433;User Id=sa;Password=Test1234;Initial Catalog=AutoLot;Encrypt=False;";
 connection.Open();
 
 // Create a SQL command object.
